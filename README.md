@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# 🎓 CUSAT SGPA Calculator
 
-First, run the development server:
+A sleek, responsive, and animated **SGPA Calculator** built with **Next.js**, **React**, **Tailwind CSS**, and **Framer Motion**. Designed specifically for CUSAT students, this tool allows quick and accurate SGPA computation based on subject credits and grades.
+
+## 🚀 Features
+
+- 📚 Input subjects by credit weight (1, 2, or 3 credits)
+- 🔢 Choose grades via dropdowns (S, A, B, C, D, F)
+- 📈 Auto-calculates SGPA using weighted average
+- 🧊 Beautiful animated UI with Framer Motion
+- 💡 Built using App Router (`app/` directory structure)
+- 🌐 Deployable on Vercel (fully supported)
+
+## 🛠 Tech Stack
+
+- [Next.js 14](https://nextjs.org/)
+- [React 18](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+
+## 📸 Screenshots
+
+_(Add screenshots here if available)_
+
+## 📦 Installation
 
 ```bash
+git clone https://github.com/AaronPhilips101/cusat-sgpa-calculator.git
+cd cusat-sgpa-calculator
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌍 Live Demo
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 [https://cusat-sgpa-calculator.vercel.app](https://cusat-sgpa-calculator.vercel.app)
 
-## Learn More
+## 📁 Project Structure (App Router)
 
-To learn more about Next.js, take a look at the following resources:
+```
+src/
+├── app/
+│   ├── page.tsx          # Main calculator component
+│   └── layout.tsx        # App layout
+├── styles/
+│   └── globals.css       # Tailwind CSS config
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🧠 SGPA Formula
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+\[
+SGPA = \frac{\sum (\text{Grade Points} \times \text{Credits})}{\sum \text{Credits}}
+\]
 
-## Deploy on Vercel
+Grade Mapping:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Grade | Grade Point |
+|-------|-------------|
+| S     | 10          |
+| A     | 9           |
+| B     | 8           |
+| C     | 7           |
+| D     | 6           |
+| F     | 0           |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+## 🙌 Contributions
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+---
+
+Made with 💙 by [Aaron Philips](https://github.com/AaronPhilips101)
