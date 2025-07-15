@@ -32,7 +32,7 @@ Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 🌍 Live Demo
 
-👉 [https://cusat-sgpa-calculator.vercel.app](https://cusat-sgpa-calculator.vercel.app)
+👉 [https://cusat-sgpa-calculator.aaronphilips101.eu.org](https://cusat-sgpa-calculator.aaronphilips101.eu.org)
 
 ## 📁 Project Structure (App Router)
 
