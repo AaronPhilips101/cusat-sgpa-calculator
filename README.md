@@ -19,10 +19,6 @@ A sleek, responsive, and animated **SGPA Calculator** built with **Next.js**, **
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Framer Motion](https://www.framer.com/motion/)
 
-## 📸 Screenshots
-
-_(Add screenshots here if available)_
-
 ## 📦 Installation
 
 ```bash
