@@ -45,12 +45,6 @@ src/
 │   └── globals.css       # Tailwind CSS config
 ```
 
-## 🧠 SGPA Formula
-
-\[
-SGPA = \frac{\sum (\text{Grade Points} \times \text{Credits})}{\sum \text{Credits}}
-\]
-
 Grade Mapping:
 
 | Grade | Grade Point |
@@ -64,7 +58,7 @@ Grade Mapping:
 
 ## 📄 License
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **GPL-V2 License** – see the [LICENSE](LICENSE) file for details.
 
 ## 🙌 Contributions
 
